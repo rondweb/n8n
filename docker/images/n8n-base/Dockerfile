@@ -35,4 +35,4 @@ RUN rm -rf /tmp/v8-compile-cache*
 
 WORKDIR /home/node
 ENV NODE_ICU_DATA /usr/local/lib/node_modules/full-icu
-EXPOSE 5678/tcp
+EXPOSE 8080/tcp
